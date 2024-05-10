@@ -6,4 +6,3 @@ curl -fsSL https://bun.sh/install | bash
 
 
 CMD ["/bin/bash"]
-

@@ -5,7 +5,7 @@ services:
     stdin_open: true
     tty: true
     build: .
-    command: /root/.bun/bin/bun run http.ts
+    command: /root/.bun/bin/bun run http.ts &
     volumes:
       - .:/root/develop
     working_dir: /root/develop
